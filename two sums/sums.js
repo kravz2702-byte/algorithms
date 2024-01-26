@@ -10,7 +10,7 @@ function twoSum(nums, target) {
             hashmap[nums[i]] = i;
         }
     }
-    return [0, 0];
+    return [-1, -1];
 }
 ;
 console.log(twoSum([2, 7, 4, 4, 5, 6, 1, 2], 9));
